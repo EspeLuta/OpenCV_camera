@@ -15,5 +15,8 @@ while True:
 	if ch == ord('q'):
 		break
 
+#キャプチャオブジェクトの開放
 cap.release()
+
+#nameWindowsオブジェクトの解放
 cv2.destroyAllWindows()
