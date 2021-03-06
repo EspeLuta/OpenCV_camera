@@ -10,6 +10,8 @@ while True:
 	
 	cv2.imshow('src', img_src) # 入力画像を表示
 	ch = cv2.waitKey(1) # キー入力待ち
+
+	# qをトリガーにプログラムを停止
 	if ch == ord('q'):
 		break
 
